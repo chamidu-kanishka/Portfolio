@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamidu Kanishka is a software engineering undergraduate specializing in web development, backend systems, and modern UI/UX design."
+    />
+    <meta name="keywords" content="Chamidu Kanishka, portfolio, software engineering, web developer, java developer" />
+    <meta name="author" content="Chamidu Kanishka" />
+    <meta property="og:title" content="Chamidu Kanishka | Software Engineering Portfolio" />
+    <meta property="og:description" content="Premium dark portfolio for a software engineering undergraduate." />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="https://example.com/" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <title>Chamidu Kanishka | Software Engineering Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="loading-screen" id="loadingScreen" aria-label="Loading portfolio">
+      <div class="loader"></div>
+    </div>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg container px-3 px-lg-5 py-3" aria-label="Main navigation">
+        <a class="navbar-brand" href="#home">CK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav gap-lg-3">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home">
+        <div class="container py-5 py-lg-6 position-relative">
+          <div class="floating-icons" aria-hidden="true">
+            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7" data-aos="fade-right">
+              <div class="eyebrow">Software Engineering Undergraduate</div>
+              <h1>Hi, I'm <span>Chamidu Kanishka</span></h1>
+              <div class="typing-line" aria-live="polite">
+                <span id="typedText"></span><span class="cursor">|</span>
+              </div>
+              <p class="hero-intro">
+                I build polished web experiences and robust backend solutions with a strong passion for clean architecture, modern UI/UX, and practical problem solving.
+              </p>
+              <div class="hero-actions">
+                <a href="assets/cv.html" class="btn btn-primary" download>Download CV</a>
+                <a href="tel:+9477285347" class="btn btn-outline">Contact Me - 077285347</a>
+              </div>
+              <div class="social-links mt-4">
+                <a href="https://github.com/chamidu-kanishka" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/chamidu-kanishka-320225425" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:chamidukanishka85@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.facebook.com/share/1DnxsXPDYv/?mibextid=wwXIfr" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-5" data-aos="fade-left">
+              <div class="hero-card card-glass">
+                <img src="assets/images/MY.jpg" alt="Portrait of Chamidu Kanishka" class="hero-image" loading="eager" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container py-5">
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">About Me</span>
+            <h2>Building thoughtful software with purpose and creativity.</h2>
+          </div>
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5" data-aos="fade-right">
+              <div class="about-card card-glass">
+                <img src="assets/images/MY.jpg" alt="Chamidu Kanishka profile" loading="lazy" />
+              </div>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+              <p>
+                I am a driven software engineering undergraduate who enjoys crafting elegant digital products and strong backend systems. My work blends problem solving, clean code, and user-focused design.
+              </p>
+              <div class="about-highlights">
+                <div class="highlight-item"><i class="fa-solid fa-bullseye"></i><span>Career objective: create impactful, scalable software.</span></div>
+                <div class="highlight-item"><i class="fa-solid fa-heart"></i><span>Passion for software engineering and continuous learning.</span></div>
+                <div class="highlight-item"><i class="fa-solid fa-globe"></i><span>Interested in web development, frontend, backend, and UI/UX.</span></div>
+                <div class="highlight-item"><i class="fa-solid fa-brain"></i><span>Enjoys analytical thinking, OOP, and solving real-world challenges.</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container py-5">
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Skills</span>
+            <h2>Core strengths and technical capabilities.</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in">
+              <div class="skill-card card-glass">
+                <h3>Programming</h3>
+                <ul>
+                  <li>Java</li>
+                  <li>Python</li>
+                </ul>
+                <div class="progress-bar"><span data-width="90"></span></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+              <div class="skill-card card-glass">
+                <h3>Frontend</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+                <div class="progress-bar"><span data-width="88"></span></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+              <div class="skill-card card-glass">
+                <h3>Backend</h3>
+                <ul>
+                  <li>Spring Boot</li>
+                  <li>REST APIs</li>
+                </ul>
+                <div class="progress-bar"><span data-width="84"></span></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+              <div class="skill-card card-glass">
+                <h3>Tools & Others</h3>
+                <ul>
+                  <li>GitHub</li>
+                  <li>VS Code</li>
+                  <li>IntelliJ IDEA</li>
+                  <li>Responsive Design</li>
+                  <li>OOP</li>
+                  <li>UI/UX</li>
+                </ul>
+                <div class="progress-bar"><span data-width="92"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container py-5">
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Projects</span>
+            <h2>Selected work reflecting my development approach.</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4" data-aos="fade-up">
+              <article class="project-card card-glass">
+                <img src="assets/images/portfolio.jpg" alt="Portfolio website preview" loading="lazy" />
+                <h3>Portfolio Website</h3>
+                <p>A premium dark portfolio with rich visuals, smooth interactions, and modern responsive design.</p>
+                <div class="tech-tags">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/chamidu-kanishka" class="btn btn-outline" target="_blank" rel="noreferrer">GitHub</a>
+                  <a href="#home" class="btn btn-primary">Live Demo</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <article class="project-card card-glass">
+                <img src="assets/images/backend.jpg" alt="Backend API preview" loading="lazy" />
+                <h3>Backend API Starter</h3>
+                <p>Modular API architecture exploring Spring Boot and efficient service-oriented design.</p>
+                <div class="tech-tags"><span>Java</span><span>Spring Boot</span><span>REST</span></div>
+                <div class="project-actions">
+                  <a href="https://github.com/chamidu-kanishka" class="btn btn-outline" target="_blank" rel="noreferrer">GitHub</a>
+                  <a href="#contact" class="btn btn-primary">Live Demo</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <article class="project-card card-glass">
+                <img src="assets/images/ux.jpg" alt="UI prototype preview" loading="lazy" />
+                <h3>UI/UX Prototype</h3>
+                <p>Concept-driven front-end work focused on clarity, rhythm, and immersive interfaces.</p>
+                <div class="tech-tags"><span>Figma</span><span>HTML</span><span>CSS</span></div>
+                <div class="project-actions">
+                  <a href="https://github.com/chamidu-kanishka" class="btn btn-outline" target="_blank" rel="noreferrer">GitHub</a>
+                  <a href="#about" class="btn btn-primary">Live Demo</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="container py-5">
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Education</span>
+            <h2>Academic path and long-term goals.</h2>
+          </div>
+          <div class="timeline card-glass" data-aos="fade-up">
+            <div class="timeline-item">
+              <h3>BSc (Hons) in Software Engineering</h3>
+              <p class="meta">Sri Lanka Technological Campus • 2025 - 2029</p>
+              <p>
+                I am pursuing a career in software engineering with a focus on designing innovative, reliable, and user-friendly software solutions. I am committed to continuous learning, improving my coding skills, and contributing to real-world technology projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="achievements">
+        <div class="container py-5">
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Achievements</span>
+            <h2>Milestones and experience highlights.</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3" data-aos="fade-up">
+              <div class="achieve-card card-glass">
+                <h3>Certifications</h3>
+                <p>Ongoing learning in modern web and software engineering practices.</p>
+                <div class="counter" data-target="8">0</div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="achieve-card card-glass">
+                <h3>Awards</h3>
+                <p>Recognized for dedication, consistency, and quality in academic work.</p>
+                <div class="counter" data-target="3">0</div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="achieve-card card-glass">
+                <h3>Coding Competitions</h3>
+                <p>Encouraging problem-solving through structured technical challenges.</p>
+                <div class="counter" data-target="5">0</div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="achieve-card card-glass">
+                <h3>University Projects</h3>
+                <p>Hands-on implementation of software engineering principles in practice.</p>
+                <div class="counter" data-target="12">0</div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 card-glass p-4">
+            <h3 class="mb-3">GitHub Statistics</h3>
+            <div class="row g-4">
+              <div class="col-lg-6">
+                <img src="https://github-readme-stats.vercel.app/api?username=chamidu-kanishka&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" class="img-fluid rounded-3" loading="lazy" />
+              </div>
+              <div class="col-lg-6">
+                <img src="https://ghchart.rshah.org/06B6D4/chamidu-kanishka" alt="GitHub contribution graph" class="img-fluid rounded-3" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certificates">
+        <div class="container py-5">
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Certificates</span>
+            <h2>Professional recognition and learning milestones.</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+              <article class="certificate-card card-glass">
+                <img src="assets/images/web-developer.jpg" alt="Certificate for web development fundamentals" loading="lazy" />
+                <h3>Web Development Fundamentals</h3>
+                <p>Coursera • January 2025</p>
+                <a href="#contact" class="btn btn-outline">Verify</a>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <article class="certificate-card card-glass">
+                <img src="assets/images/java.jpg" alt="Certificate for Java programming" loading="lazy" />
+                <h3>Java Programming Essentials</h3>
+                <p>Udemy • March 2025</p>
+                <a href="#contact" class="btn btn-outline">Verify</a>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <article class="certificate-card card-glass">
+                <img src="assets/images/ui-ux.jpg" alt="Certificate for UI/UX design" loading="lazy" />
+                <h3>UI/UX Design Basics</h3>
+                <p>Google • April 2025</p>
+                <a href="#contact" class="btn btn-outline">Verify</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container py-5">
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Contact</span>
+            <h2>Let’s build something meaningful together.</h2>
+          </div>
+          <div class="row g-4 align-items-stretch">
+            <div class="col-lg-5" data-aos="fade-right">
+              <div class="contact-card card-glass">
+                <h3>Reach out</h3>
+                <p>Open to internships, collaborations, and exciting software engineering opportunities.</p>
+                <ul class="contact-list">
+                  <li><i class="fa-solid fa-envelope"></i> chamidukanishka85@gmail.com</li>
+                  <li><i class="fa-solid fa-phone"></i> +94 77285347</li>
+                  <li><i class="fa-brands fa-github"></i> github.com/chamidu-kanishka</li>
+                  <li><i class="fa-brands fa-linkedin"></i> linkedin.com/in/chamidu-kanishka-320225425</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+              <form class="contact-form card-glass" id="contactForm">
+                <div class="mb-3">
+                  <label class="form-label" for="name">Name</label>
+                  <input class="form-control" id="name" name="name" required />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="email">Email</label>
+                  <input class="form-control" id="email" name="email" type="email" required />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="subject">Subject</label>
+                  <input class="form-control" id="subject" name="subject" required />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="container py-4">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-4">
+            <a class="navbar-brand" href="#home">CK</a>
+            <p class="mt-3">Premium software engineering portfolio crafted for internships, university assessment, and career opportunities.</p>
+          </div>
+          <div class="col-lg-4 text-lg-center">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <div class="social-links">
+              <a href="https://github.com/chamidu-kanishka" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/chamidu-kanishka-320225425" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p class="mt-3">© <span id="year"></span> Chamidu Kanishka. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+      <a href="#home" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    </footer>
+
+    <button class="chat-toggle" id="chatToggle" type="button" aria-label="Open AI assistant"><i class="fa-solid fa-robot"></i></button>
+    <div class="chat-panel card-glass" id="chatPanel" aria-live="polite">
+      <div class="chat-header">
+        <h3>AI Assistant</h3>
+        <button type="button" id="chatClose" aria-label="Close assistant"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="chat-body" id="chatBody">
+        <div class="chat-message assistant">Hello! I can help with your background, skills, and project details.</div>
+      </div>
+      <form class="chat-form" id="chatForm">
+        <input type="text" id="chatInput" placeholder="Ask me about Chamidu..." aria-label="Chat message" />
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
